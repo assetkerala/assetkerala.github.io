@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Asset Kerala</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+body {font-family:'Poppins',sans-serif;margin:0;background:#f7f8fa;}
+
+header {
+  background:white;
+  padding:15px 30px;
+  display:flex;
+  justify-content:space-between;
+  position:sticky;
+  top:0;
+}
+
+nav a {
+  margin-left:20px;
+  text-decoration:none;
+  color:#333;
+}
+
+.hero {
+  height:90vh;
+  background:url('hero.jpg') center/cover;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  color:white;
+  position:relative;
+}
+
+.hero::after {
+  content:"";
+  position:absolute;
+  inset:0;
+  background:rgba(0,0,0,0.4);
+}
+
+.hero-content {position:relative;z-index:2;}
+
+.section {padding:40px 20px;}
+
+.grid {
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:20px;
+}
+
+.card {
+  background:white;
+  padding:20px;
+  border-radius:12px;
+  box-shadow:0 5px 20px rgba(0,0,0,0.05);
+  transition:0.3s;
+}
+
+.card:hover {transform:translateY(-5px);}
+
+.tag {
+  font-size:12px;
+  padding:4px 10px;
+  border-radius:20px;
+  display:inline-block;
+  margin-bottom:8px;
+}
+
+.lifestyle {background:#e6f4ff;color:#0077cc;}
+.yield {background:#e9fbe7;color:#2e7d32;}
+.residential {background:#fff3e0;color:#e65100;}
+.development {background:#f3e5f5;color:#6a1b9a;}
+.landbank {background:#ede7f6;color:#4527a0;}
+.value {background:#e0f2f1;color:#00695c;}
+
+.location {font-size:13px;color:#666;}
+
+.whatsapp {
+  position:fixed;
+  bottom:20px;
+  right:20px;
+  background:#25D366;
+  color:white;
+  padding:12px 16px;
+  border-radius:50px;
+  text-decoration:none;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+<div><strong>Asset Kerala</strong></div>
+<nav>
+<a href="index.html">Home</a>
+<a href="listings.html">Listings</a>
+</nav>
+</header>
+
+<section class="hero">
+<div class="hero-content">
+<h1>Discover High-Potential Investment Properties</h1>
+<p>Curated land opportunities across Kerala</p>
+</div>
+</section>
+
+<section class="section">
+<h2>All Opportunities</h2>
+
+<div class="grid">
+
+<div class="card"><span class="tag lifestyle">Lifestyle</span><h3>Backwater Land</h3><div class="location">Payyannur</div><p>₹1.64 Cr • 82 cents</p><a href="property1.html">View</a></div>
+
+<div class="card"><span class="tag yield">Yield</span><h3>Coconut Estate</h3><div class="location">Payyannur</div><p>₹1.60 Cr • 80 cents</p><a href="property2.html">View</a></div>
+
+<div class="card"><span class="tag residential">Residential</span><h3>Premium Plot</h3><div class="location">Ezhilode</div><p>₹1.29 Cr • 43 cents</p><a href="property3.html">View</a></div>
+
+<div class="card"><span class="tag development">Development</span><h3>Flexible Plots</h3><div class="location">Pilathara</div><p>₹1.47 Cr • 67 cents</p><a href="property4.html">View</a></div>
+
+<div class="card"><span class="tag landbank">Land Bank</span><h3>Large Parcel</h3><div class="location">Pilathara</div><p>₹3.14 Cr • 209 cents</p><a href="property5.html">View</a></div>
+
+<div class="card"><span class="tag value">Value Buy</span><h3>Affordable Land</h3><div class="location">Korom</div><p>₹1.02 Cr • 102 cents</p><a href="property6.html">View</a></div>
+
+<div class="card"><span class="tag residential">Residential</span><h3>Temple Side Plot</h3><div class="location">Pilathara</div><p>₹1.50 Cr • 60 cents</p><a href="property7.html">View</a></div>
+
+<div class="card"><span class="tag lifestyle">Hybrid</span><h3>Roadside Coconut Land</h3><div class="location">Korom</div><p>₹2.60 Cr • 130 cents</p><a href="property8.html">View</a></div>
+
+<div class="card"><span class="tag residential">Residential</span><h3>Compact Plot</h3><div class="location">Madayi Para</div><p>₹31 L • 14 cents</p><a href="property9.html">View</a></div>
+
+<div class="card"><span class="tag residential">Residential</span><h3>Mid-Size Plot</h3><div class="location">Pilathara</div><p>₹1.22 Cr • 61 cents</p><a href="property10.html">View</a></div>
+
+<div class="card"><span class="tag development">Redevelopment</span><h3>Corner Plot</h3><div class="location">Pilathara</div><p>₹38 L • 17 cents</p><a href="property11.html">View</a></div>
+
+<div class="card"><span class="tag development">Multi-Use</span><h3>Corner Multi-Use Land</h3><div class="location">Pariyaram</div><p>₹1.26 Cr • 72 cents</p><a href="property12.html">View</a></div>
+
+<div class="card"><span class="tag lifestyle">Lifestyle</span><h3>Corner Residential Land</h3><div class="location">Kadannapally, Chandapura</div><p>₹1.80 Cr • 120 cents</p><a href="property13.html">View</a></div>
+
+<div class="card"><span class="tag lifestyle">Scenic</span><h3>Scenic Land</h3><div class="location">Kadannapally</div><p>₹1.30 Cr • 104 cents</p><a href="property14.html">View</a></div>
+
+<div class="card"><span class="tag development">Prime</span><h3>Prime Residential Land</h3><div class="location">Pilathara</div><p>₹1.90 Cr • 76 cents</p><a href="property15.html">View</a></div>
+
+<div class="card"><span class="tag value">Value</span><h3>Affordable Land</h3><div class="location">Kuppam</div><p>₹90 L • 90 cents</p><a href="property16.html">View</a></div>
+
+</div>
+
+</section>
+
+<a class="whatsapp" href="https://wa.me/91XXXXXXXXXX">Chat</a>
+
+</body>
+</html>
